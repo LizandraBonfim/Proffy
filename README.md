@@ -1,7 +1,7 @@
 #Proffy
 
 <img src="https://github.com/LizandraBonfim/Proffy/blob/master/frontend/src/assets/images/cadastro1.png">
-<img src="https://github.com/LizandraBonfim/Proffy/blob/master/frontend/src/assets/images/cadastro2png">
+<img src="https://github.com/LizandraBonfim/Proffy/blob/master/frontend/src/assets/images/cadastro2.png">
 <img src="https://github.com/LizandraBonfim/Proffy/blob/master/frontend/src/assets/images/web-landing.png">
 <img src="https://github.com/LizandraBonfim/Proffy/blob/master/frontend/src/assets/images/web-list.png>
 
