@@ -4,7 +4,7 @@ export const PageHeaderContent = styled.header`
     display: flex;
     flex-direction: column;
     background-color: var(--color-primary);
-
+    margin-bottom: 6rem;
     @media(min-width: 700px){
         height: 340px;
     }
@@ -51,6 +51,15 @@ export const HeaderContent = styled.div`
         font: 700 3.6rem Archivo;
         line-height: 4.2rem;
         color: var(--color-title-in-primary);
+
+    }
+
+    p{
+        max-width: 30rem;
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+        color: var(--color-text-in-primary);
+        margin-top: 2.6rem;
 
     }
 

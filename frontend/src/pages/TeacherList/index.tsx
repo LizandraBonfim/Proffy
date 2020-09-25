@@ -1,8 +1,10 @@
 import React from 'react';
 import PageHeader from '../../components/PageHeader'
 
+import Input from '../../components/Input';
 import TeacherItem from '../../components/TeacherItem';
-import { PageTeacherList, FormSearchTeachers, InputBlock, Main } from './styles';
+import { PageTeacherList, FormSearchTeachers, Main } from './styles';
+import Select from '../../components/Select';
 
 function TeacherList() {
     return (
@@ -13,20 +15,38 @@ function TeacherList() {
 
                 <FormSearchTeachers >
 
-                    <InputBlock>
-                        <label htmlFor="subject"> Matéria </label>
-                        <input type="text" id="subject" />
-                    </InputBlock>
+                    <Select
+                        label="Matéria"
+                        name="subject"
+                        options={[
+                            { value: 'Artes', label: 'Artes ' },
+                            { value: 'Biologia', label: 'Biologia ' },
+                            { value: 'Geografia', label: 'Geografia ' },
+                            { value: 'Ingles', label: 'Ingles ' },
+                            { value: 'Historia', label: 'Historia ' },
+                            { value: 'Fisica', label: 'Fisica ' },
+                            { value: 'Portugues', label: 'Portugues ' },
+                            { value: 'Quimica', label: 'Quimica ' },
+                        ]}
+                    />
 
-                    <InputBlock>
-                        <label htmlFor="week_day"> Dia da Semana  </label>
-                        <input type="text" id="week_day" />
-                    </InputBlock>
+                    <Select
+                        label="Dia da semana"
+                        name="subject"
+                        options={[
+                            { value: '0', label: 'Domingo' },
+                            { value: '1', label: 'Segunda-feira ' },
+                            { value: '2', label: 'Terça-feira ' },
+                            { value: '3', label: 'Quarta-feira ' },
+                            { value: '4', label: 'Quinta-feira ' },
+                            { value: '5', label: 'Sexta-feira ' },
+                            { value: '6', label: 'Sábado ' },
 
-                    <InputBlock>
-                        <label htmlFor="time"> Hora </label>
-                        <input type="text" id="time" />
-                    </InputBlock>
+                        ]}
+                    />
+
+
+                    <Input label="Hora" name="time" type="time" />
 
 
                 </FormSearchTeachers>
