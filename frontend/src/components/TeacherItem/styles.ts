@@ -57,7 +57,7 @@ footer{
         display: block;
     }
 
-    button{
+    a{
         width: 20rem;
         height: 5.6rem;
         background: var(--color-secundary);
@@ -70,6 +70,7 @@ footer{
         align-items: center;
         justify-content: space-around;
         transition: .3s;
+        text-decoration: none;
 
         &:hover{
         background: var(--color-secundary-dark);
@@ -91,7 +92,7 @@ footer{
         margin-left: 1.6rem;
     }
 
-    footer button{
+    footer a{
         width: 24.5rem;
         justify-content: center;
         font-size: 1.6rem;

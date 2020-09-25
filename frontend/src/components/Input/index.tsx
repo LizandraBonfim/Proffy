@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { InputHTMLAttributes } from 'react';
 import { InputBlock } from './styles';
 
-interface Props {
+interface Props extends InputHTMLAttributes<HTMLInputElement> {
     label: string;
     name: string;
     type: string;

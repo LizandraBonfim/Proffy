@@ -5,7 +5,7 @@ export const PageTeacherForm = styled.div`
     height: 100vh;
 `;
 
-export const Main = styled.main`
+export const Main = styled.form`
     background: var(--color-box-base);
     margin-top: -4rem;
     width: 100%;
